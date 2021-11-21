@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <TextView
+        android:text="Tic Tac Toe"
+        android:textSize="50dp"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"
+        android:textStyle="bold" />
+
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/p1text"
+            android:text="Player1: "
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_marginBottom="18dp" />
+        <TextView
+            android:id="@+id/qula1"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_marginBottom="40dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/p2text"
+            android:text="Player2: "
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_marginBottom="18dp" />
+        <TextView
+            android:id="@+id/qula2"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_marginBottom="40dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:backgroundTint="#0524D1"
+            android:id="@+id/Button1"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp"
+
+            />
+
+        <Button
+            android:backgroundTint="#0524D1"
+            android:id="@+id/Button2"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:backgroundTint="#0524D1"
+            android:id="@+id/Button3"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:backgroundTint="#0524D1"
+            android:id="@+id/Button4"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:backgroundTint="#0524D1"
+            android:id="@+id/Button5"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:backgroundTint="#0524D1"
+            android:id="@+id/Button6"
+            android:layout_height="50pt"
+            android:layout_width="50pt"
+            android:text=""
+            android:textSize="40sp"
+            android:layout_margin="2dp" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <Button
+        android:backgroundTint="#0524D1"
+        android:id="@+id/Button7"
+        android:layout_height="50pt"
+        android:layout_width="50pt"
+        android:text=""
+        android:textSize="40sp"
+        android:layout_margin="2dp" />
+
+    <Button
+        android:backgroundTint="#0524D1"
+        android:id="@+id/Button8"
+        android:layout_height="50pt"
+        android:layout_width="50pt"
+        android:text=""
+        android:textSize="40sp"
+        android:layout_margin="2dp" />
+
+    <Button
+        android:backgroundTint="#0524D1"
+        android:id="@+id/Button9"
+        android:layout_height="50pt"
+        android:layout_width="50pt"
+        android:text=""
+        android:textSize="40sp"
+        android:layout_margin="2dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:backgroundTint="#00BCD4"
+            android:id="@+id/resButton"
+            android:text="Reset"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+
+
+
+</TableLayout>
